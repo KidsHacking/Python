@@ -1,5 +1,36 @@
+# ========================================
+# Operating System Files
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ========================================
+# IDEs and Editors
+# ========================================
+
 # JetBrains IntelliJ IDEA
-.idea
+.idea/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Cursor
+.cursorignore
+.cursorindexingignore
+
+# ========================================
+# Python
+# ========================================
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -176,22 +207,22 @@ cython_debug/
 # Learn more at https://abstra.io/docs
 .abstra/
 
-# Visual Studio Code
-#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
-#  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#  and can be added to the global gitignore or merged into this file. However, if you prefer, 
-#  you could uncomment the following to ignore the enitre vscode folder
-# .vscode/
-
 # Ruff stuff:
 .ruff_cache/
 
 # PyPI configuration file
 .pypirc
 
-# Cursor
-#  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
-#  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
-#  refer to https://docs.cursor.com/context/ignore-files
-.cursorignore
-.cursorindexingignore
+# ========================================
+# Learning/Practice Files
+# ========================================
+
+# Temporary scratch files
+scratch.py
+test*.py
+temp*.py
+*.tmp
+
+# Student solutions (optional - uncomment if needed)
+# solutions/
+# *_solution.py
